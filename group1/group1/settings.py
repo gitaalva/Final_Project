@@ -41,7 +41,8 @@ INSTALLED_APPS = (
     'requirements',
     'comm',
     'issue_tracker',
-    'corsheaders'
+    'corsheaders',
+    'django_jenkins'
 )
 
 MIDDLEWARE_CLASSES = (

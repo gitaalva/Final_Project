@@ -5,6 +5,6 @@
 virtualenv -p /usr/local/bin/python2.7 $WORKSPACE/../virtualenv
 $WORKSPACE/../virtualenv/bin/pip install -r ./dependencies.txt
 $WORKSPACE/../virtualenv/bin/python $WORKSPACE/group1/manage.py makemigrations
-$WORKSPACE/../virtualenv/bin/python $WORKSPACE/manage.py migrate
-$WORKSPACE/../virtualenv/bin/python $WORKSPACE/manage.py runserver
+$WORKSPACE/../virtualenv/bin/python $WORKSPACE/group1/manage.py migrate
+$WORKSPACE/../virtualenv/bin/python $WORKSPACE/group1/manage.py runserver
 fuser -k 8000/tcp

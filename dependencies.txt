@@ -11,3 +11,4 @@ django-filters==0.1.0
 django-jenkins==0.18.1
 coverage==4.0.3
 wheel==0.29.0
+pylint==1.5.5
